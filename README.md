@@ -1,5 +1,5 @@
-# azure-remote-monitoring-raspberry-pi-c
-This repository contains sample codes that enables Raspberry Pi 3 to connect to Azure Remote Monitoring.
+# Connect your Microsoft Azure IoT Raspberry Pi 3 Starter Kit to the remote monitoring solution
+The tutorials in this section help you learn how to connect a Raspberry Pi 3 device to the remote monitoring solution. Choose the tutorial appropriate to your preferred programming language and the whether you have the sensor hardware available to use with your Raspberry Pi.
 
 ## Contributing
 
@@ -8,12 +8,12 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 ## Folder introduction
 - simulator
 
-  	Connect to Azure Remote Monitoring with Raspberry Pi 3 without any sensors.
+  	Simulates sensor data. Uses a standalone Raspberry Pi.
   
 - basic
 
-  	Connect to Azure Remote Monitoring with Raspberry Pi 3 with two sensors: a telemetry&humidity sensor(BME280) and a Led light.
+  	Uses data from a BME280 sensor connected to your Raspberry Pi.
   
 - advanced
 
-  	Based on the basic sample, this sample will show you how to initiate firmware update process.
+  	Uses data from a BME280 sensor connected to your Raspberry Pi. Enables remote firmware updates on your Raspberry Pi.
