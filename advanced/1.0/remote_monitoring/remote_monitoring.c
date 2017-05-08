@@ -138,7 +138,7 @@ void WriteConfig()
 {
 	FILE* fp;
 
-	if (NULL == (fp = fopen("//home//pi//azure-remote-monitoring-raspberry-pi-c//advanced//config//lastupdate", "w")))
+	if (NULL == (fp = fopen("//home//pi//iot-remote-monitoring-c-raspberrypi-getstartedkit//advanced//config//lastupdate", "w")))
 	{
 		printf("Failed to open lastupdate file to write\r\n");
 	}
@@ -155,7 +155,7 @@ void LoadConfig()
 {
 	FILE* fp;
 
-	if (NULL == (fp = fopen("//home//pi//azure-remote-monitoring-raspberry-pi-c//advanced//config//deviceinfo", "r")))
+	if (NULL == (fp = fopen("//home//pi//iot-remote-monitoring-c-raspberrypi-getstartedkit//advanced//config//deviceinfo", "r")))
 	{
 		printf("Failed to open deviceInfo file to read\r\n");
 	}
@@ -184,7 +184,7 @@ void LoadConfig()
 		fclose(fp);
 	}
 
-	if (NULL == (fp = fopen("//home//pi//azure-remote-monitoring-raspberry-pi-c//advanced//config//lastupdate", "r")))
+	if (NULL == (fp = fopen("//home//pi//iot-remote-monitoring-c-raspberrypi-getstartedkit//advanced//config//lastupdate", "r")))
 	{
 		printf("Failed to open lastupdate file to read\r\n");
 	}
@@ -368,7 +368,7 @@ void UpdateFirmwareComplete()
 	printf("finsh send firmware update complete");
 	//clean up lastupdate log
 	FILE* fp;
-	if (NULL == (fp = fopen("//home//pi//azure-remote-monitoring-raspberry-pi-c//advanced//config//lastupdate", "w")))
+	if (NULL == (fp = fopen("//home//pi//iot-remote-monitoring-c-raspberrypi-getstartedkit//advanced//config//lastupdate", "w")))
 	{
 		printf("Failed to open lastupdate file to write\r\n");
 	}
