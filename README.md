@@ -12,9 +12,9 @@ The C code in this repository supports a set of tutorials that help you learn ho
 
 | Tutorial | Notes |
 | -------- | ----- |
-| [Simulated telemetry (Basic)](https://docs.microsoft.com/azure/iot-suite/iot-suite-raspberry-pi-kit-c-get-started-simulator) | Simulates sensor data. Uses a standalone Raspberry Pi. |
-| [Real sensor (Intermediate)](https://docs.microsoft.com/azure/iot-suite/iot-suite-raspberry-pi-kit-c-get-started-basic) | Uses data from a BME280 sensor connected to your Raspberry Pi. |
-| [Implement firmware update (Advanced)](https://docs.microsoft.com/azure/iot-suite/iot-suite-raspberry-pi-kit-c-get-started-advanced) | Uses data from a BME280 sensor connected to your Raspberry Pi. Enables remote firmware updates on your Raspberry Pi. |
+| [Simulated telemetry (Basic)](https://docs.microsoft.com/previous-versions/azure/iot-suite/iot-suite-v1-raspberry-pi-kit-c-get-started-simulator) | Simulates sensor data. Uses a standalone Raspberry Pi. |
+| [Real sensor (Intermediate)](https://docs.microsoft.com/previous-versions/azure/iot-suite/iot-suite-v1-raspberry-pi-kit-c-get-started-basic) | Uses data from a BME280 sensor connected to your Raspberry Pi. |
+| [Implement firmware update (Advanced)](https://docs.microsoft.com/previous-versions/azure/iot-suite/iot-suite-v1-raspberry-pi-kit-c-get-started-advanced) | Uses data from a BME280 sensor connected to your Raspberry Pi. Enables remote firmware updates on your Raspberry Pi. |
 
 ## Contributing
 
